@@ -43,3 +43,5 @@ Day7 home:
 
 Day8+9: 
 - edellisten jatkoja , erillisä filejen ja muiden ulkopuoleisten tiedostojen käyttämistä.
+
+Näiden avulla opetettiin käytännössä perusteet
