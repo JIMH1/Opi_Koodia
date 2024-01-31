@@ -1,5 +1,0 @@
-päivitetään number guessing game <- tehty
-jonkunlainen valikko peliin <- tehty
-lisätään jos jää aikaa aiemmin tehtyjä pelejä <- tehty
-tehdään hienosäätöä jos jää aikaan.
-2.2.2024 viimeinen päivä.

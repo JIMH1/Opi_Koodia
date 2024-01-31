@@ -105,7 +105,9 @@ int main(){
 
                 while(replayA == 1){
                 printf("\nChoose your weapon\n");
-                printf("S like Stone, P as paper and z as Scissors\n");
+                printf("s like Stone,\n");
+                printf("o as paper,\n");
+                printf("z as Scissors\n");
                 scanf("%c", &you);
                 getchar();
 
@@ -119,15 +121,15 @@ int main(){
                     computer = 'z';
                 result = rps(you, computer);
                 if (result == -1) {
-                    printf("\n\n\t\t\t\tIT IS TIE!!!\n");
+                    printf("\nIT IS TIE!!!\n");
                 }
                 else if (result == 1) {
-                    printf("\n\n\t\t\t\tYOU WIN!!!\n");
+                    printf("\nYOU WIN!!!\n");
                 }
                 else { 
-                    printf("\n\n\t\t\t\tYOU LOOSE!!!!\n");
+                    printf("\nYOU LOOSE!!!!\n");
                 }
-                printf("\t\t\t\tYour choose was %c and NPC choose : %c\n",you, computer);
+                printf("Your choose was %c and NPC choose : %c\n",you, computer);
                 //Game give you option to restart the game
                 printf("Press 1 if you want to play again. Press other value to exit. Your choice: ");
                 scanf("%d", &replayA);
