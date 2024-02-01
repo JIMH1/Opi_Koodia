@@ -5,17 +5,15 @@
 #include <time.h>
 #include <string.h>
 #include <math.h>
-#include "rps.c"
-#include "nqg.c"
 
-int MENU(){
+int MENUU(){
     int choice = 0;
     // game menu start. It is using cases.
     while(true){
-        printf("You are adult\n");
-        printf("You can play whit us\n");
+        printf("You are underage\n");
+        printf("You can play whit us, but only Rock-Paper-Scissors\n");
         printf("\nChoose your game\n");
-        printf("1. Number Quessing Game\n");
+        printf("1. Number Quessing Game - K-18 game\n");
         printf("2. Rock-Paper-Scissors\n");
         printf("3. Close your app\n");
         printf("Your number:  ");
@@ -23,8 +21,8 @@ int MENU(){
 
         switch (choice){
             case 1:
-            // case 1 start Nubmer Quessing Game on file nqg.c
-                NQG();
+            // NQG is only over 18 years old
+            printf("You are under 18, you can't play this game");
                 break;
 
             case 2:
