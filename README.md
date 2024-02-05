@@ -1,5 +1,6 @@
 OpiKoodia koulutukseen liityvät projektit
 
-C Kurssi kansiossa on koulutehtäviä
-C Projektityössä on c kurssin jälkeinen näyttötyö taidoista
-kansioon tullaan myös lisäämään kurssin edetessä uusia tiedostoja.
+- C Kurssi ja pythonkurssi kansiossa on koulutehtäviä
+- Projektityökansioon tulee kaikki projektit
+
+- Kansioiden alla myös jaotellaan aiheittain.
