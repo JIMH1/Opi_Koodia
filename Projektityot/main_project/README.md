@@ -1,0 +1,1 @@
+OpiKoodia koulutukseen liittyvän ryhmätyön asiat sitten koostetaan tänne.

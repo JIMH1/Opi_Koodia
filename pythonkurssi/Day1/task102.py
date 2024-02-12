@@ -51,4 +51,4 @@ print(osoite)
 # Tehtävä 102-7: Kirjoita ohjelma, joka kysyy 2-3 asiaa ja tulostaa lyhyen muutaman rivin tarinan, jossa näitä asioita on käytetty.
 sankari = input("Kuka on tarinan sankari? ")
 roisto = input("Kuka on tarinan roisto? ")
-print(sankari + " ratsasti karjatilalle. " + roisto + " ratsasti myös karjatilalle.\n" + sankari + " puhui roistolle, joka lähti karkuun.")
+print(roisto + " ratsasti baariin. " + sankari + " ratsasti myös baariin.\n" + sankari + " pidätti roiston.")

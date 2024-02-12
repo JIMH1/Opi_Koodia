@@ -6,16 +6,20 @@
 int main() 
 {
     // file operations
-
-    // Case: Read entire file
 /*
+    // Case: Read entire file
+
     // this defines we are doing file io operations
     FILE *pointertofileA;
     char tempcharA;
 
     // fopen() is used to open connection to buffer
 //    pointertofileA = fopen("helloworld.c","r");
-    pointertofileA = fopen("fileA.c","r");
+    pointertofileA = fopen("testivvvv.bmp","r");
+
+    if (pointertofileA == NULL) {
+        printf("\nGOT NULL VALUE!");
+    }
 
     while(true) {
         // read a character from buffer opened
@@ -32,15 +36,17 @@ int main()
     }
 
     // at the end we must close the buffer to file
-  fclose(pointertofileA);
+    fclose(pointertofileA);
 */
+
 /*
     // Write to a file
 
-    FILE *pointertofileA;
+    pointertofileA = NULL;
+//    FILE *pointertofileA;
 
     // create a new file name and set it as w (writing)
-    pointertofileA = fopen("fileA.c","w");
+    pointertofileA = fopen("fileA.txt","w");
 
     // fprintf() is used to write entire text to a file
     char text[30] = " Hello to you\nand to me!";
@@ -49,6 +55,7 @@ int main()
     // close the stream with fclose()
     fclose(pointertofileA);
 */
+
 /*
     // you can read data and store it to buffer
    
@@ -114,12 +121,13 @@ int main()
     printf("%s",fgets(buffer,255, pointertofileA));
     printf("\nbuffer content at position 1: %s",buffer);
     printf("%s",fgets(buffer,255, pointertofileA));
-    printf("\nbuffer content at position 2: %s",buffer);
+    printf("\nbuffer content at position 2: %d", atoi(buffer));
     
     fclose(pointertofileA);
 
 
-/*     FILE *pointertofileA;
+/*
+    FILE *pointertofileA;
     char buffer[255];
 
     pointertofileA = fopen("fileA.c","r");
@@ -128,7 +136,7 @@ int main()
         printf("%s", buffer);
     }
     fclose(pointertofileA);
- */
+*/
 
     return 0;
 }

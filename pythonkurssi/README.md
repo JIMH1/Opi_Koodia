@@ -1,3 +1,5 @@
-Python koulutehtäviä
-- day 1 alkaa ja tutustumista kieleen ja perinteinen helloworldillä aloitetaan
-- tehty kotitehtäviä kansioista 101 102 ja 103
+OpiKoodia koulutukseen liityvät harjoitukset mallit ja muut tehtävät
+
+Day 1-4 sisälsi perusteita
+Day 5 alkoi oliot ja muut syventävät aiheet.
+ 
