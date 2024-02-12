@@ -1,11 +1,7 @@
-# Task OOP-01
-# Program your own class and objects
-# Person class with name, age
-# personstats()
-# personsays(arg)
-# Create 2 persons
+""" Python olio task """
 
-"""
+# Task OOP-01:  
+# Program your own class and objects Person class with name, age personstats() personsays(arg) Create 2 persons
 class Person:
     def __init__(self,name,age):
         self.name=name
@@ -18,24 +14,16 @@ class Person:
     def personsays(self,say):
         print(say)
 
-person1 = Person("Aku",55)
-person2= Person("Hannu", 66)
+person1 = Person("Juha-Matti",39)
+person2= Person("Huhtala", 40)
 
 person1.personstats()
-person1.personsays("Terve")
+person1.personsays("Väsynyt")
 
 person2.personstats()
-person2.personsays("Moro") 
-"""
-
-# Task OOP-02
-# change previous solution as follows:
-# add class variable number
-# its value is increased by 1 whenever new
-# person is added
-# print how many persons you have created
-# i.e. how many Person objects you have
-"""
+person2.personsays("Hellurei ja ... ") 
+# Task OOP-02: 
+# change previous solution as follows: add class variable number, its value is increased by 1 whenever new person is added print how many persons you have created i.e. how many Person objects you have
 class Person:
     number = 0
     def __init__(self,name,age):
@@ -51,24 +39,18 @@ class Person:
         print(say)
 
 print(Person.number)
-person1 = Person("Aku",55)
+person1 = Person("Juha-Matti",39)
 print(Person.number)
-person2= Person("Hannu", 66)
-print(Person.number,"näin monta henkilöä tehty")
+person2= Person("Huhtala", 40)
+print(Person.number,"verran lisätty henkilöitä listaan")
 
 person1.personstats()
-person1.personsays("Terve")
+person1.personsays("Väsynyt")
 
 person2.personstats()
-person2.personsays("Moro") 
-"""
-
-# Task OOP-03
-# create class PersonToo
-# without default constructor
-# attributes are name and age
-# methods are personstats() and personsays(arg)
-
+person2.personsays("Hellurei ja ... ") 
+# Task OOP-03: 
+# create class PersonToo without default constructor attributes are name and age methods are personstats() and personsays(arg)
 class PersonToo:
     name=""
     age=1
@@ -81,57 +63,32 @@ class PersonToo:
         print(say)
 
 person1 = PersonToo()
-person1.name="Tupu"
-person1.age=11
+person1.name="Matti"
+person1.age=31
 person2= PersonToo()
-person2.name="Hupu"
-person2.age=11
+person2.name="MEikäläinen"
+person2.age=91
 
 
 person1.personstats()
-person1.personsays("Terve")
+person1.personsays("Väsynyt")
 
 person2.personstats()
-person2.personsays("Moro")
-
-# Task OOP-04
-# Use class functions and find out following...
-# 1) Value of age in both persons.
-# 2) Is qwerty a object variable?
-# 3) Delete age of one of the persons.
-
-# 1) Value of age in both persons.
+person2.personsays("Hellurei ja ... ") 
+# Task OOP-04: 
+# Use class functions and find out following... 1) Value of age in both persons. 2) Is qwerty a object variable? 3) Delete age of one of the persons.
 print(getattr(person1,"age"))
 print(getattr(person2,"age"))
-
-# 2) Is qwerty a object variable?
 print(hasattr(person1,"qwery"))
-
-# 3) Delete age of one of the persons.
 delattr(person2,"age")
 print(hasattr(person2,"age")) 
 
+# Task OOP-005: 
+# afternoon's programming task. create a class BankAccount for accounts with attributes: ( name (string), / saldo (float),  / id (int). )  with methods: ( changebalance(float) for X amount withdrawal/accumulation /  accountinfo() that describes account info )Then add all account objects to a list named accountlist.
+# Next create a following bank interface to test out your class and list: MY BANK 1: Add account 2: Show account info for one account 3: Show account info for all accounts 0: Quit banking program
 
-# Task OOP-005
-# afternoon's programming task.
-# create a class BankAccount for accounts
-# with attributes: 
-#   name (string), 
-#   saldo (float), 
-#   id (int)
-# with methods: 
-#   changebalance(float) for X amount withdrawal/accumulation
-#   accountinfo() that describes account info
-# Then add all account objects to a list named accountlist.
 
-# Next create a following bank interface to test out your class and list:
-#
-# MY BANK
-# 1: Add account
-# 2: Show account info for one account
-# 3: Show account info for all accounts
-# 0: Quit banking program
-
+# huom opettajan mallitiedosto
 class BankAccount:
     def __init__(self, name, saldo, id):
         self.name = name
