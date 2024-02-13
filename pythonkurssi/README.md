@@ -9,4 +9,4 @@ Day 5 alkoi oliot ja muut syventävät aiheet.
 - [day 3 harjoitukset](https://github.com/JIMH1/Opi_Koodia/tree/main/pythonkurssi/Day3)
 - [day 4 harjoitukset](https://github.com/JIMH1/Opi_Koodia/tree/main/pythonkurssi/Day4)
 - [day 5 harjoitukset](https://github.com/JIMH1/Opi_Koodia/tree/main/pythonkurssi/Day5)
-
+- [day 6 harjoitukset](https://github.com/JIMH1/Opi_Koodia/tree/main/pythonkurssi/Day6)
