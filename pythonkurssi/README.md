@@ -2,6 +2,8 @@ OpiKoodia koulutukseen liityvät harjoitukset mallit ja muut tehtävät
 
 Day 1-4 sisälsi perusteita
 Day 5 alkoi oliot ja muut syventävät aiheet.
+Day 7 käsitti SQL:n oppeja
+Day 8 Embedded Systems ja kertausta
  
 
 - [day 1 harjoitukset](https://github.com/JIMH1/Opi_Koodia/tree/main/pythonkurssi/Day1)
@@ -10,3 +12,13 @@ Day 5 alkoi oliot ja muut syventävät aiheet.
 - [day 4 harjoitukset](https://github.com/JIMH1/Opi_Koodia/tree/main/pythonkurssi/Day4)
 - [day 5 harjoitukset](https://github.com/JIMH1/Opi_Koodia/tree/main/pythonkurssi/Day5)
 - [day 6 harjoitukset](https://github.com/JIMH1/Opi_Koodia/tree/main/pythonkurssi/Day6)
+- [day 7 harjoitukset](https://github.com/JIMH1/Opi_Koodia/tree/main/pythonkurssi/Day7)
+
+
+Embeded linkkejä
+https://www.javatpoint.com/embedded-system-tutorial
+
+https://www.geeksforgeeks.org/what-are-the-differences-between-c-and-embedded-c/
+
+https://www.cs.helsinki.fi/u/iivorait/Software_Architectures_in_Embedded_Systems.pdf
+
