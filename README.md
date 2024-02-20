@@ -12,7 +12,5 @@ Koulutettavat tekevät tiimeissä projektityön, joka kulkee opetuksen rinnalla 
 
 Tämä Github repo sisältää siis tähän OpiKoodia koulutukseen liityvät projektit ja koulutehtävät
 
-- C Kurssi ja pythonkurssi kansiossa on koulutehtävät
-[linkki c kurssi](https://github.com/JIMH1/Opi_Koodia/tree/main/Ckurssi)
-[linkki python](https://github.com/JIMH1/Opi_Koodia/tree/main/pythonkurssi)
+- C Kurssi ja pythonkurssi kansiossa on koulutehtävät [c kurssi](https://github.com/JIMH1/Opi_Koodia/tree/main/Ckurssi) ja [python kurssi](https://github.com/JIMH1/Opi_Koodia/tree/main/pythonkurssi) 
 - Ja [Projektityökansioon](https://github.com/JIMH1/Opi_Koodia/tree/main/Projektityot) tulee kaikki projektit ja itsenäisen koulupäivän työtehtävät
