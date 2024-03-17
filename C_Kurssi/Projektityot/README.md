@@ -1,8 +1,10 @@
-Isompia projektitöitä ja niiden kansioita
+C-kielen projektityöt jakaantuvat useampaan pienempään projektiin sekä pääprojektiin
 
-- [C-kielen projektityön kansio](https://github.com/JIMH1/Opi_Koodia/tree/main/Projektityot/C_Projektityo)
-- [Python -kielen projektityön kansio](https://github.com/JIMH1/Opi_Koodia/tree/main/Projektityot/Python_Projektityo)
-- [Ryhmätyö-projektityön repositio](https://github.com/JIMH1/OpiKoodia_project)
+Pienemmät sivuprojektit:
+[Kuusimetsä](https://github.com/JIMH1/Opi_Koodia/tree/main/C_Kurssi/Projektityot/Kuusimetsa)
+[Lotto](https://github.com/JIMH1/Opi_Koodia/tree/main/C_Kurssi/Projektityot/Lottery)
+[NumberQuessing](https://github.com/JIMH1/Opi_Koodia/tree/main/C_Kurssi/Projektityot/NumberQuessing_Game)
+[Ristinolla](https://github.com/JIMH1/Opi_Koodia/tree/main/C_Kurssi/Projektityot/Ristinolla)
+[KivipaperiSakset](https://github.com/JIMH1/Opi_Koodia/tree/main/C_Kurssi/Projektityot/RockPaperScissor)
 
-Tämän lisäksi kansio sisältää 3 itsenäisen työpäivän harjoitustehtävät.
-- [C-kielen ja Python kielen itsenäisen työpäivän pienprojektit:](https://github.com/JIMH1/Opi_Koodia/tree/main/Projektityot/pienetprojektit)
+Ja c-kielen "[pääprojekti](https://github.com/JIMH1/Opi_Koodia/tree/main/C_Kurssi/Projektityot/mainproject)"

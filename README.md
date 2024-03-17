@@ -10,7 +10,8 @@ Koulutuksen sisältö
 
 Koulutettavat tekevät tiimeissä projektityön, joka kulkee opetuksen rinnalla koulutuksen ajan. Projektityöskentelyllä selkeytetään roolien merkitystä tiimeissä ja niihin tarvittavia kykyjä korostetaan opetuksessa. Projektityön tarkoituksena on rakentaa koulutettaville portfolio, joka toimii työnäytteenä yrityksille.
 
-Tämä Github repo sisältää siis tähän OpiKoodia koulutukseen liityvät projektit ja koulutehtävät
+Tämä Github repositio sisältää siis tähän OpiKoodia koulutukseen liityvät projektit ja koulutehtävät. Koulutukseen liittyvä pääprojekti sijaitsee omassa repositiossa.
 
-- C Kurssi ja pythonkurssi kansiossa on koulutehtävät [c kurssi](https://github.com/JIMH1/Opi_Koodia/tree/main/Ckurssi) ja [python kurssi](https://github.com/JIMH1/Opi_Koodia/tree/main/pythonkurssi) 
-- Ja [Projektityökansioon](https://github.com/JIMH1/Opi_Koodia/tree/main/Projektityot) tulee kaikki projektit ja itsenäisen koulupäivän työtehtävät
+C-kielen alue löytyy [täältä](https://github.com/JIMH1/Opi_Koodia/tree/main/C_Kurssi)
+Pythonin alue löytyy [täältä](https://github.com/JIMH1/Opi_Koodia/tree/main/Python_Kurssi)
+Ja pääporjektin oma repositio löytyy [täältä](https://github.com/JIMH1/OpiKoodia_project)

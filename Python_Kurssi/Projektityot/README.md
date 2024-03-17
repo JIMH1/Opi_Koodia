@@ -1,16 +1,6 @@
-Kotona tehtävät "itsenäisen päivän työt"
+Python-kielen projektityöt jakaantuvat sekä yhteen pienempään projektiin kuin sitten pääprojektiin
 
-Choose one of those:   
-- Vaikeita:   Kuusimetsätyö   tick-tack-toe aka ristinolla 
-- Helpompia:   Lotto   Number guessing game 
-- Helppoja:   Kivi sakset paperia
-- opettajan antamat (kouluharjoitukset)
+Pienemmät sivuprojektit:
+[KivipaperiSakset](https://github.com/JIMH1/Opi_Koodia/tree/main/Python_Kurssi/Projektityot/RockPaperScissor)
 
-Tehty seuraavia:
-- c-kielellä: 
-    - Kuusimetsä
-    - lotto (arpoo numerot ei muuta)
-    - Number Guessing game
-    - Kivi-paperi sakset
-- python kielellä:
-    - Kivi paperi sakset
+Ja Python-kielen "[pääprojekti](https://github.com/JIMH1/Opi_Koodia/tree/main/Python_Kurssi/Projektityot/mainproject)"

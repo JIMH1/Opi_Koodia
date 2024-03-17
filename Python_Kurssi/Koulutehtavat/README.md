@@ -6,13 +6,13 @@ Day 7 käsitti SQL:n oppeja
 Day 8 Embedded Systems ja kertausta
  
 
-- [day 1 harjoitukset](https://github.com/JIMH1/Opi_Koodia/tree/main/pythonkurssi/Day1)
-- [day 2 harjoitukset](https://github.com/JIMH1/Opi_Koodia/tree/main/pythonkurssi/Day2)
-- [day 3 harjoitukset](https://github.com/JIMH1/Opi_Koodia/tree/main/pythonkurssi/Day3)
-- [day 4 harjoitukset](https://github.com/JIMH1/Opi_Koodia/tree/main/pythonkurssi/Day4)
-- [day 5 harjoitukset](https://github.com/JIMH1/Opi_Koodia/tree/main/pythonkurssi/Day5)
-- [day 6 harjoitukset](https://github.com/JIMH1/Opi_Koodia/tree/main/pythonkurssi/Day6)
-- [day 7 harjoitukset](https://github.com/JIMH1/Opi_Koodia/tree/main/pythonkurssi/Day7)
+- [day 1 harjoitukset](https://github.com/JIMH1/Opi_Koodia/tree/main/Python_Kurssi/Koulutehtavat/Day1)
+- [day 2 harjoitukset](https://github.com/JIMH1/Opi_Koodia/tree/main/Python_Kurssi/Koulutehtavat/Day2)
+- [day 3 harjoitukset](https://github.com/JIMH1/Opi_Koodia/tree/main/Python_Kurssi/Koulutehtavat/Day3)
+- [day 4 harjoitukset](https://github.com/JIMH1/Opi_Koodia/tree/main/Python_Kurssi/Koulutehtavat/Day4)
+- [day 5 harjoitukset](https://github.com/JIMH1/Opi_Koodia/tree/main/Python_Kurssi/Koulutehtavat/Day5)
+- [day 6 harjoitukset](https://github.com/JIMH1/Opi_Koodia/tree/main/Python_Kurssi/Koulutehtavat/Day6)
+- [day 7 harjoitukset](https://github.com/JIMH1/Opi_Koodia/tree/main/Python_Kurssi/Koulutehtavat/Day7)
 
 
 Embeded linkkejä
