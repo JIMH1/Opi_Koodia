@@ -1,0 +1,148 @@
+Ylemmän kuvan ongelma on vanha funktiokutsu. Vanhassa versiossa se otti ainaostaan pelaajan nimen, mutta nyt se ottaa pelin nimen sekä pelaajan nimen. Eli muuttamalla 264 tästä:
+"data = getPlayer(playerName)" 
+täksi:
+"data = getPlayer("react", playerName)" pitäisi saada toi yks errori pois. Ja tässä siis "react", jos se tulee sieltä playReact() -funktion sisältä
+
+
+Toisessa kuvassa lcdPrint() herjaa, koska se on hakenut tyhjän rivin tietokannasta ja koittaa printata tyhjää
+Siihen ehkä paras ratkaisu on vaan pyörittää peli muutamia kertoja, jotta se saa tietokantaan jotain dataa. Jos ei, joudutaan kirjottaan joku tosi yksinkertanen funktio, joka tunkee tietokantaan testidataa
+
+armangeddon — 30/03/2024 19:33
+juu. Ainiin joo, mä aloin tuottamaan sitä dia esitystä sinne meidän driveen.
+
+ebaDOOFUS — 30/03/2024 19:35
+ehkä jotain tän kaltaista:
+
+'''
+names = ["EBA", "ABE", "AKU", "TIM", "BOB", "SAM", "IKE", "OBI", "LEE", "MOE", "JMH"]
+
+def seedReactTestData(name):
+  savePlayer("react", '5.000' , name)#täähän vissii oliki stringi
+
+def seedSimonTestData(name):
+  savePlayer("simon", 3, name)#tässä se muistaakseni on intti
+
+
+for name in names:
+  seedReactTestData(name)
+  seedSimonTestData(name)
+''' (edited)
+
+@armangeddon
+juu. Ainiin joo, mä aloin tuottamaan sitä dia esitystä sinne meidän driveen.
+
+ebaDOOFUS — 30/03/2024 19:37
+Okei kiva! Mietin eilen samaa, mut aattelin että ehkä me vaan vedetään läpi se toteutussuunnitelma
+[19:37]
+Ehkä se olis yksinkertaisempi vaa tehä uus powerpointti
+[19:38]
+Ainakin kun kattelin sitä toteutussuunnitelmaa vai mikähän lie, oli siel aika paljon vanhaa ja semmosta matskua josta ollaan siirrytty eri suuntaan projektin edetessä
+[19:38]
+Joten piti hajottaa atomeiks ja alottaa melkeen alusta tietyissä kohdissa
+
+ebaDOOFUS — 30/03/2024 20:30
+Mäkin heitin tonne nyt pikemminki ideoita. Koitin jättää ne merkitty ranskalaisin viivoin, että ne on helppo muokata/poistaa.
+
+Ymmärtääkseni se perjantain juttu on aika lyhyt, vissiin 20 min. Sit se pitäis jakaa about tasan meille kummallekin.
+[20:31]
+Jussikaan ei vissiin tiennyt, mitä siel on käytössä, mut varmaan nyt ainakin tietokone ja joku piirtoheitin tai projektori.
+1 April 2024
+
+armangeddon — Today at 20:11
+Jos tolla https://app.diagrams.net/ sivustolla väkertää reaktiopelille, simons say pelille ja tietokannalle jotain dia, niin tekstin suhteen tuo dia show varmaan on valmis. Väkersin sitä just äskön omasta mielestäni tekstin suhteen valmiiksi.
+[20:11]
+sinne kun lisää muutamia dioja tms. noista niin sit se minusta on hyvä.
+
+ebaDOOFUS — Today at 20:12
+Joo mulla taitaakin olla valmiit kaaviot koneella
+
+armangeddon — Today at 20:12
+ja sitten sitä toteutussuunnitelmaa varmaan pitää jotenkin laajentaa nykyisempään muotoon
+
+ebaDOOFUS — Today at 20:13
+Joo meinasin just sanoa. Toteutussiunniteöma on nyt puoliks vanhaa ja puoliks uutta
+[20:13]
+Mutta en tiedä onko se kriittinen tähän perjantain esitykseen
+
+armangeddon — Today at 20:14
+ei se varmaan esitykseen oo kriittinen, mutta tiedä sitten pitääkö torstain eräpäivään lähettää mitä. Joten varmaan ne pitää päivittää koulun suuntaan.
+[20:15]
+toki, toki, eipä opettajalta oo vielä ohjeita tullut asiasta.
+
+ebaDOOFUS — Today at 20:15
+Hetkinen pitääkö nämä palauttaa johonkin?
+
+armangeddon — Today at 20:16
+no siis tuolla on tuo 4.4 teksit, mutta en mää muuten tiiä miten nuo hoidetaan
+
+
+ebaDOOFUS — Today at 20:17
+Aivan 
+[20:17]
+Noh Koitan illalla kattoa sitä ja päivittää
+[20:18]
+Sähän kuitenkin testasit koodin viikonloppuna, joten olettaisin sen toimivan esityksessä
+[20:18]
+Että ainoastaan toteutussuunniteöma ja se powerpointti joudutaan mahdollisesti palauttamaan torstaina
+
+armangeddon
+264, 265, 152 ja 318 rivit tuotti erroria. Mut jos githubbiin laitat tietokannan myös niin varmaan sit taas pelittää
+
+armangeddon — Today at 20:23
+noiden virheitten jälkeen en oo vielä kerennyt ajaa korjausehdottamaasi koodia.
+[20:23]
+Mutta kyllä mä nyt sen kerkeen kattoa tänään tai viimeistään huomenna
+
+ebaDOOFUS — Today at 20:24
+ainiin perkele se kanta
+[20:24]
+siinä raspilla on jonkinlainen kanta, mutta se on täynnä sitä testidataa
+[20:24]
+pitäskö vaan tyhjä kanta ja checkaa sen toimivuus
+
+armangeddon — Today at 20:25
+minutsta pitäis, koska kyllähän pelin pitäisi myös toimia vaikka tietokanta on tyhjä.
+[20:25]
+joku "mitä tehdä jos kanta on tyhjä/luomatta" rivi
+[20:26]
+toki en mä tiiä että, pitääkö se olla perjantaihin mennessä valmis vaan huijataanko vaan pistämällä kantafilu myös githubbiin ja testataan sen kautta että, koodi toimii myös mun raspilla.
+[20:27]
+Kuitenkin vaikka me esiteltäisiinkin peli itsesään mun kytkennöillä, niin kyllähän se kannattaa koulun raspilla ajaa.
+[20:27]
+Mutta oishan se hyvä nähdä että, mun laittteet toimii mun raspilla tuolla koodilla (ihan vaan vaikka varmuuden vuoksi jos ei muuten)
+
+ebaDOOFUS — Today at 20:32
+mietitääs. Muistaakseni python on sen verran fiksu, että se luo sen database filun, jos se ei löydä sen nimistä.
+Eli kun tuolla SQL:ää käsittelevässä koodissa on tuo "connection = sqlite3.connect('test.db'), niin muuttamalla test.db esim test2.db, sen pitäs luoda sen niminen tyhjä file. Sen jälkeen muistaakseni noissa SQL funkkareissa on miltei jokaisessa se 'create table if not exist...' -pätkä, sen pitäs samoin luoda tietokantaan tableja(pöytiä?) ellei se löydä niitä
+
+def savePlayer(peli, nimi, pojot):
+    connection = sqlite3.connect('test.db')#Eli tähän vois heittää jonku muun nimen
+    cursor = connection.cursor()
+[20:34]
+Muistaakseni viime viikolla muutettiin ainaki se react käyttämään random pisteiden sijaan käyttää jotain tällästä (startTime - endTime), joka tallennettiin kantaan stringinä esim '1.5259'
+
+Sit myöhemmin lisäsin mielestäni simoniin SQL logiikan, mutta se jäi vissiin testaamatta
+[20:35]
+Sit sitä SQL koodia muokattiin vielä siten, että se hakee sen pelaajan pisteet ja sen overallHighScoren kannasta ennenku pelit alkaa
+[20:38]
+names = ["EBA", "ABE", "AKU", "TIM", "BOB", "SAM", "IKE", "OBI", "LEE", "MOE", "JMH"]
+
+def seedReactTestData(name):
+  randPoints = random.choice(['5.4567', '4.1234', '4.8765'])
+  savePlayer("react", randPoints , name)#täähän vissii oliki stringi
+
+def seedSimonTestData(name):
+  randPoints = random.choice([3, 4, 5])
+  savePlayer("simon", randPoints, name)#tässä se muistaakseni on intti
+
+
+for name in names:
+  seedReactTestData(name)
+  seedSimonTestData(name)
+
+tällä (testaamattomalla koodilla) vois luoda siihen uuteen tietokantafileen testidataa, joka ainakin näyttää vähän oikeammalta (edited)
+
+ebaDOOFUS — Today at 20:41
+Eli jos ottaa siitä main filen lopusta pois sen mainMenun() toistaseks, laittaa tilalle tuon 'for name in names:' -loopin, lisää noi seedReactTestData ja seedSimonTestData funkkarit sinne johonki, sekä muuttaa sen 'test.db' joksikin muuksi, saattais se hyvällä tuurilla antaa jokaiselle noista nimistä jonkinnäköistä testidataa uuteen kantaan
+[20:42]
+Sen jälkeen sen for name in names -loopin voi laittaa pois ja lisätä sen mainMenu() sinne loppuun
