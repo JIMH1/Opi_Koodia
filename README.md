@@ -14,4 +14,4 @@ Tämä Github repositio sisältää siis tähän OpiKoodia koulutukseen liityvä
 
 C-kielen alue löytyy [täältä](https://github.com/JIMH1/Opi_Koodia/tree/main/C_Kurssi)
 Pythonin alue löytyy [täältä](https://github.com/JIMH1/Opi_Koodia/tree/main/Python_Kurssi)
-Ja pääporjektin oma repositio löytyy [täältä](https://github.com/JIMH1/OpiKoodia_project)
+Ja pääporjektin oma repositio löytyy [täältä](https://github.com/JIMH1/OpiKoodia_project) materiaalin löytyessä [täältä](https://github.com/JIMH1/Opi_Koodia/tree/main/Main_project)
